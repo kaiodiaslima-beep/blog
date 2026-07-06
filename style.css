@@ -1,5 +1,5 @@
 .cabecalho {
-    background-color: rgba(32, 211, 196, 0.541);
+    background-color: rgba(10, 32, 228, 0.541);
     color: rgb(251, 255, 0);
     text-align: center;
     max-width: 800px;
@@ -8,7 +8,7 @@
 }
 
 .conteudo-principal {
-    background-color: rgb(98, 98, 156);
+    background-color: rgb(161, 140, 20);
     color: green;
 }
 
