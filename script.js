@@ -1,8 +1,10 @@
-//cria uma constante que seleciona o botao no html
-const botao = document.querySelector("button");
+const botoes = document.querySelectorAll("button");
+botoes.forEach(function(botao) {
 botao.addEventListener("click", botaoClicado);
-//cria um 
+
 function botaoClicado() {
-    let texto = botao.querySelector("span");
-    texto.textContent++;
+console.log("fui clicado");
+let texto = botao.querySelector("span");
+texto.textContent++;
 }
+});
